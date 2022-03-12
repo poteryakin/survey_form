@@ -1,0 +1,102 @@
+body {
+    background: linear-gradient(
+        115deg,
+        rgba(58, 58, 158, 0.8),
+        rgba(136, 136, 206, 0.7)
+      ),
+      url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);;
+    color: white;
+}
+
+#title {
+    text-align: center;
+    color: white;
+    margin-bottom: auto;
+    font-family: monospace;
+    margin-top: 60px;
+}
+
+#description {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    margin-top: 7px;
+}
+
+.label-text {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 35px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.input-text {
+  display: block;
+  width: 88%;
+  padding: 8px;
+  color: #495057;
+  border-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 35px;
+    max-width: 35%;
+    background-color: #1b1b32;
+    border-radius: 5px;
+    padding-top: 35px;
+    padding-bottom: 45px;
+    margin-top: 40px;
+}
+
+.input-radio {
+    margin-left: 35px; 
+    margin-top: 5px;
+}
+
+.input-checkbox {
+    margin-left: 35px; 
+    margin-top: 5px;
+}
+
+.text-area {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 88%;
+    padding-bottom: 60px;
+    border-radius: 5px;
+}
+
+.button-submit{
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    background: #37af65;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 10px;
+}
+
+@media(max-width: 445px) {
+    .form {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 35px;
+        max-width: 100%;
+        background-color: #1b1b32;
+        border-radius: 5px;
+        padding-top: 35px;
+        padding-bottom: 45px;
+        margin-top: 40px;
+    }
+}
